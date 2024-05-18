@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NgTemplate';
+  toggle: boolean = false;
+  ToggleFun() {
+    this.toggle = !this.toggle;
+  }
 }
